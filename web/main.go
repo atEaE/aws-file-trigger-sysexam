@@ -15,7 +15,7 @@ func init() {
 		Partials:     []string{},
 		Functions:    make(template.FuncMap),
 		DisableCache: false,
-		Delmis:       tmpl.Delims{Left: "{{", Right: "}}"},
+		Delims:       tmpl.Delims{Left: "{{", Right: "}}"},
     }
     
     router.Echo.Renderer = tmpl.New(tmplConf)

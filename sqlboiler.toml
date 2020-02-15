@@ -1,0 +1,8 @@
+[psql]
+  dbname = "test_db"
+	host = "sysexam_db"
+	port = "5432"
+	user = "test"
+	pass = "test"
+	sslmode = "disable"
+	blacklist = []

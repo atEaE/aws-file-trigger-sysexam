@@ -20,3 +20,4 @@
 /.serverless
 lambda-select-bin
 lambda-insert-bin
+/logs
