@@ -16,5 +16,7 @@
 # vendor/
 
 # build module
+/bin
+/.serverless
 lambda-select-bin
 lambda-insert-bin
